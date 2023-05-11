@@ -1,7 +1,3 @@
-img {
-    height: 250px;
-}
-
 * {
     background-color: rgb(37, 37, 37);
     color: white;
@@ -13,8 +9,6 @@ img {
 
 button {
     padding: 8px 15px;
-    background-color: aliceblue;
-    color: black;
     border-radius: 10px;
 }
 
@@ -26,12 +20,16 @@ main {
     justify-content: center;
 }
 
-#winner {
-    font-size: 42px;
+#score {
+    margin-top: 30px;
 }
 
-#pictures {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+#winner {
+    font-size: 42px;
+    display: none;
+    margin: 5px 0;
+}
+
+#restartButton {
+    display: none;
 }

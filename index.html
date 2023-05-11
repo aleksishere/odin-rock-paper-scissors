@@ -9,21 +9,19 @@
 </head>
 <body>
     <main>
-
-        <div id="pictures">
-            <img id="rock" src="https://cdn.pixabay.com/photo/2012/05/07/12/16/rocks-48279_960_720.png" alt="">
-            <img id="paper" src="https://cdn.pixabay.com/photo/2013/07/12/12/48/garbage-146279_960_720.png" alt="">
-            <img id="scissors" src="https://cdn.pixabay.com/photo/2016/07/29/21/41/school-1555907_960_720.png" alt="">
+        <div id="playerChoice">
+            <button class="choice" id="scissors"><img src="scissors.png" alt="scissors"></button>
+            <button class="choice" id="rock"><img src="rock.png" alt="rock"></button>
+            <button class="choice" id="paper"><img src="paper.png" alt="paper"></button>
         </div>
-
-        <div>
+        <div id="score">
+            <p id="winner"></p>
             Player score: <span id="playerScore"></span> <br>
-            Computer score: <span id="computerScore"></span> <br> 
-            <button>Try again?</button> <br>
+            Computer score: <span id="computerScore"></span> <br>
             <span id="result"></span> <br>
-            <span id="winner"></span> <br>
+            <button id="restartButton">Try again?</button>
         </div>
-        <br>
+
 
     </main>
     <script src="script.js"></script>
